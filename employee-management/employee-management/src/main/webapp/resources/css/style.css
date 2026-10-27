@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { font-family: Segoe UI, Arial, sans-serif; margin: 0; background: #f4f6f9; color: #222; }
+nav { background: #1f3a5f; padding: 14px 30px; }
+nav a { color: #fff; text-decoration: none; margin-right: 22px; font-weight: 600; }
+nav a:hover { text-decoration: underline; }
+.container { max-width: 960px; margin: 30px auto; background: #fff; padding: 28px 32px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+h2 { margin-top: 0; color: #1f3a5f; }
+label { display: block; margin: 14px 0 4px; font-weight: 600; }
+input, select { width: 100%; padding: 9px 10px; border: 1px solid #bbb; border-radius: 4px; font-size: 15px; }
+.btn { display: inline-block; margin-top: 20px; padding: 10px 22px; background: #2d7ff9; color: #fff; border: 0; border-radius: 4px; font-size: 15px; cursor: pointer; text-decoration: none; }
+.btn:hover { background: #1b66d4; }
+.error { color: #c0392b; font-size: 13px; display: block; margin-top: 3px; }
+.alert { padding: 12px 16px; border-radius: 4px; margin-bottom: 18px; }
+.alert-success { background: #e6f6ea; color: #1e7b34; border: 1px solid #b5e2c0; }
+.alert-danger { background: #fdecea; color: #a12622; border: 1px solid #f5c2be; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { padding: 10px 12px; border-bottom: 1px solid #e3e3e3; text-align: left; }
+th { background: #eef2f7; }
+.empty { color: #777; padding: 20px 0; }
+.SUCCESS { color: #1e7b34; font-weight: 600; }
+.FAILED { color: #c0392b; font-weight: 600; }
